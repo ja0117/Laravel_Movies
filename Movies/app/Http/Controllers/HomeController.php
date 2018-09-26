@@ -32,5 +32,4 @@ class HomeController extends Controller
         $request->user()->authorizeRoles('owner');
         return view('dev');
     }
-
 }

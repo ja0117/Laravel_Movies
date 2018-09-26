@@ -19,6 +19,11 @@ Route::get('/dev', function () {
     return view('dev');
 });
 
+Route::get('/home',function () {
+    return view('home');
+});
+
+Route::resource('admin', 'AdminPanel');
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+
