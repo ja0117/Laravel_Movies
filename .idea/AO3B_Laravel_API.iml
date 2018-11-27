@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Movies/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/Movies/tests" isTestSource="true" packagePrefix="Tests\" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/beyondcode/laravel-dump-server" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/defuse/php-encryption" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/dnoegel/php-xdg-base-dir" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/erusev/parsedown" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/fideloper/proxy" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/firebase/php-jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/fzaninotto/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/jakub-onderka/php-console-color" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/jakub-onderka/php-console-highlighter" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/laravel/passport" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/lcobucci/jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/league/event" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/league/oauth2-server" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/phpseclib/phpseclib" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/phpunit/php-token-stream" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/symfony/debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/symfony/psr-http-message-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies/vendor/zendframework/zend-diactoros" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
