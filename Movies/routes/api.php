@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
 
 
 /*
@@ -20,7 +22,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::post('/login', function (Request $request)
 {
-    if(Auth::attempt(['email' => $request->input('email'), 'password'=> $request->input('email')]))
+
+    if(Auth::attempt(['email' => $request->input('email'), 'password'=> $request->input('password')]))
     {
         return response()->json(Auth::user()->createToken('Joshua')->accessToken);
     }
