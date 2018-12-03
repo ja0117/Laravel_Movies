@@ -10,7 +10,7 @@
                 console.log(response[i]);
 
                 $("#maincontainer").append(
-                    $('<div class="card-deck" style="bottom-margin: 10px;">' +
+                    $('<div class=".col-md-4 card-deck" style="bottom-margin: 10px;">' +
                         '<div class="card text-center"><div class="card-block">' +
                             '<h4 class="card-title">' + response[i].title + '</h4>' +
                             '<p class="card-text"><img style="width: 200px; height: 300px;" src="' + response[i].images.banner + '"> </p>' +
@@ -38,9 +38,9 @@
     <div class="card-deck">
         <div class="card text-center">
             <div class="card-block">
-                <h4 class="card-title">Permits</h4>
+                <h4 class="card-title">Serie list</h4>
                 <p class="card-text">
-                    smaller text
+                    Feel free to check them out
                 </p>
             </div>
             <div class="card-footer">
