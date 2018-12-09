@@ -2,43 +2,12 @@
 
 @section('content')
 
-    <script>
-
-        $.getJSON("https://tv-v2.api-fetch.website/shows/1").then(function(response){
-            for(var i = 0; i < response.length; i++)
-            {
-                console.log(response[i]);
-
-                $("#maincontainer").append(
-                    $('<div class=".col-md-4 card-deck" style="bottom-margin: 10px;">' +
-                        '<div class="card text-center"><div class="card-block">' +
-                            '<h4 class="card-title">' + response[i].title + '</h4>' +
-                            '<p class="card-text"><img style="width: 200px; height: 300px;" src="' + response[i].images.banner + '"> </p>' +
-                        '</div>' +
-                        '<div class="card-footer">test</div>')
-                );
-            }
-        });
-
-
-        // $("#maincontainer").append(
-        //     $('<div class="card-deck">').append(
-        //         $('<div class="card text-center">').append(
-        //             $('<div class="card-block"><h4 class="card-title">' + response[i].title + '</h4><p class="card-text"><img style="width: 200px; height: 300px;" src="' + response[i].images.banner + '"> </p></div>').append(
-        //                 $('<div class="card-footer">test</div>')
-        //             )
-        //         )
-        //     )
-        // );
-
-    </script>
-
 <div id="maincontainer" class="container">
 
     <div class="card-deck">
         <div class="card text-center">
             <div class="card-block">
-                <h4 class="card-title">Serie list</h4>
+                <h4 class="card-title">Movie list</h4>
                 <p class="card-text">
                     Feel free to check them out
                 </p>
