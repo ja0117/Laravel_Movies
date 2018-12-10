@@ -15,27 +15,26 @@ class MoviesController extends Controller
      */
     public function index()
     {
-        $movies = movies::getAll();
+        $movies = movies::all();
         return view("Movies/main", compact('movies'));
     }
 
     public function getID($id)
     {
-        $movies = movies::getOne($id);
+        $movies = movies::find($id);
         return view('Movies/main', compact('movies'));
     }
 
-    public function destroy($id)
+    public function destroy(movies $id)
     {
         movies::destroy($id);
 
-        $movies = movies::getAll();
-        return view('Movies/main', compact('movies'));
+        return redirect('movies');
     }
 
     public function updateform($id)
     {
-        $movies = movies::getOne($id);
+        $movies = movies::find($id);
         return view('Movies/edit', compact('movies'));
     }
     /**
@@ -43,9 +42,11 @@ class MoviesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $request)
     {
-        //
+        $movie = new movies;
+        $movie->fill($request->toArray());
+        return redirect('movies');
     }
 
     /**

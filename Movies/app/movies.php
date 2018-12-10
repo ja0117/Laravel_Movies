@@ -6,13 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class movies extends Model
 {
-    public static function getAll()
-    {
-        return movies::all();
-    }
-
-    public static function getOne($id)
-    {
-        return movies::query()->where('id', $id)->get();
-    }
+    protected $fillable = ["movie_title", "movie_genre","movie_rating"];
+    protected $hidden = [];
+    public $timestamps = false;
+    public $table = "movies";
 }

@@ -2,6 +2,11 @@
 
 @section('content')
 
+
+<form>
+
+    <input type="hidden" name="_method" value="delete" />
+
     <table class="table">
         <thead>
         <tr>
@@ -24,15 +29,22 @@
                 <td> {{$movie->movie_title}} </td>
                 <td> {{$movie->movie_genre}} </td>
                 <td> {{$movie->movie_rating}} </td>
+
                 @if(Auth::user())
                     @if(Auth::user()->hasRole('owner'))
+
+
                         <td><a class="btn btn-danger delete_user" href="movies/delete/{{$movie->id}}">Delete</a> </td>
                         <td><a class="btn btn-warning delete_user" href="movies/update/{{$movie->id}}">Update</a> </td>
+
+
                     @endif
                 @endif
+
             </tr>
         @endforeach
         </tbody>
     </table>
+</form>
 
 @endsection
