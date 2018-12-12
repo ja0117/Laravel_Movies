@@ -32,5 +32,5 @@ Route::post('/login', function (Request $request)
 Route::get('movies','ApiController@index');
 Route::get('movies/{movie}','ApiController@getID');
 Route::delete('movies/delete/{movie}', 'ApiController@destroy');
-Route::put('movies/update/{id}', 'ApiController@updateform');
+//Route::put('movies/update/{id}', 'ApiController@updateform');
 Route::post('movies/create', 'ApiController@create');

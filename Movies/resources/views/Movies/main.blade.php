@@ -31,11 +31,11 @@
                 <td> {{$movie->movie_rating}} </td>
 
                 @if(Auth::user())
-                    @if(Auth::user()->hasRole('owner'))
+                    @if(Auth::user()->hasRole('owner') || Auth::user()->hasRole('moderator'))
 
 
                         <td><a class="btn btn-danger delete_user" href="movies/delete/{{$movie->id}}">Delete</a> </td>
-                        <td><a class="btn btn-warning delete_user" href="movies/update/{{$movie->id}}">Update</a> </td>
+                        <td><a class="btn btn-warning delete_user disabled" href="movies/update/{{$movie->id}}">Update</a> </td>
 
 
                     @endif

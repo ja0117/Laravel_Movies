@@ -30,6 +30,6 @@ Auth::routes();
 
 Route::get('movies','MoviesController@index');
 Route::get('movies/{id}','MoviesController@getID');
-Route::delete('movies/delete/{id}', 'MoviesController@destroy');
+Route::get('movies/delete/{id}', 'MoviesController@destroy');
 Route::get('movies/update/{id}', 'MoviesController@updateform');
 
